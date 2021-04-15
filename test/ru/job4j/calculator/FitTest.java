@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-
 public class FitTest {
 
     @Test
@@ -13,7 +12,6 @@ public class FitTest {
         double extended = 92;
         double out = Fit.manWeight(in);
         Assert.assertEquals(extended,out,0.01);
-
     }
 
     @Test
