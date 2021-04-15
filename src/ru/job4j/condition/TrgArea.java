@@ -12,18 +12,3 @@ public class TrgArea {
         System.out.println("area (2, 2, 2) = " + rsl);
     }
 }
-/*
-package ru.job4j.condition.Greeting;
-
-public class Greeting{
-    public static void main(String[] args){
-        String idea = "I like Java!";
-        System.out.println(idea);
-        System.out.println(idea + " But I am a newbie.");
-        int year = 2021;
-        idea = idea + year;
-        System.out.println(idea);
-    }
-}
-}
- */
