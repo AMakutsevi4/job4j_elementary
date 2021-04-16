@@ -6,6 +6,6 @@ public class Triangle {
     }
 
     public static void main(String[] args) {
-       System.out.println(exist(2,2,2));
+        System.out.println(exist(2, 2, 2));
     }
 }
