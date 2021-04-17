@@ -9,5 +9,4 @@ public class ChessBoard {
         }
         return rsl;
     }
-
 }
