@@ -10,4 +10,4 @@ public class Fitness {
         }
         return month;
     }
-}
+ }
