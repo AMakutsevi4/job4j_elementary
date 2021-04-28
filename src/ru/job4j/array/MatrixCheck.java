@@ -20,7 +20,7 @@ public class MatrixCheck {
                 break;
             }
         }
-        return result;
+        return result ;
     }
 
     public static char[] extractDiagonal(char[][] board) {
