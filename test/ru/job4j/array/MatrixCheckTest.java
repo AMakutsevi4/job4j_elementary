@@ -30,7 +30,6 @@ public class MatrixCheckTest {
     }
 
     @Ignore
-
     @Test
     public void whenDiagonalFullX() {
         char[][] input = {
