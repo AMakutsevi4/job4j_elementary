@@ -31,4 +31,26 @@ public class MaxTest {
         int expected = 724;
         Assert.assertEquals(result, expected);
     }
+
+    @Test
+    public void WhenF10S9T7F6Then10() {
+        double first = 10;
+        double second = 9;
+        double third = 6;
+        double fourth = 0;
+        double out = Max.add(first, second, third, fourth);
+        double expected = 10;
+        Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void WhenF1S998T75F641Then998() {
+        double first = 1;
+        double second = 998;
+        double third = 75;
+        double fourth = 641;
+        double out = Max.add(first, second, third, fourth);
+        double expected = 998;
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }

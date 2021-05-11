@@ -6,6 +6,17 @@ public class Max {
     }
 
     public static void main(String[] args) {
+
         System.out.println(max(16, 19));
+    }
+
+    public static double add(double first, double second) {
+        return Math.max(first, second);
+    }
+
+    public static double add(double first, double second, double third, double fourth) {
+        double tmp = add(first, third);
+        double out = add(second, fourth);
+        return add(out, tmp);
     }
 }
