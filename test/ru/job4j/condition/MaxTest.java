@@ -53,4 +53,14 @@ public class MaxTest {
         double expected = 998;
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void WhenF25S321T998Then998() {
+        double first = 25;
+        double second = 321;
+        double third = 998;
+        double out = Max.add(first, second, third);
+        double expected = 998;
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }

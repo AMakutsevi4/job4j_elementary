@@ -11,7 +11,12 @@ public class Max {
     }
 
     public static double add(double first, double second) {
-        return Math.max(first, second);
+
+        return first >= second ? first : second;
+    }
+
+    public static double add(double first, double second, double third) {
+        return add(first, add(second, third));
     }
 
     public static double add(double first, double second, double third, double fourth) {
