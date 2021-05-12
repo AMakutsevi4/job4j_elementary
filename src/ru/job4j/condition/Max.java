@@ -10,18 +10,16 @@ public class Max {
         System.out.println(max(16, 19));
     }
 
-    public static double add(double first, double second) {
+    public static double max(double first, double second) {
 
         return first >= second ? first : second;
     }
 
-    public static double add(double first, double second, double third) {
-        return add(first, add(second, third));
+    public static double max(double first, double second, double third) {
+        return max(first, max(second, third));
     }
 
-    public static double add(double first, double second, double third, double fourth) {
-        double tmp = add(first, third);
-        double out = add(second, fourth);
-        return add(out, tmp);
+    public static double max(double first, double second, double third, double fourth) {
+        return max(max(first, second), max(third, fourth));
     }
 }

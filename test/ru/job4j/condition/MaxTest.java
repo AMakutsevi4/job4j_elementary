@@ -38,7 +38,7 @@ public class MaxTest {
         double second = 9;
         double third = 6;
         double fourth = 0;
-        double out = Max.add(first, second, third, fourth);
+        double out = Max.max(first, second, third, fourth);
         double expected = 10;
         Assert.assertEquals(expected, out, 0.01);
     }
@@ -49,7 +49,7 @@ public class MaxTest {
         double second = 998;
         double third = 75;
         double fourth = 641;
-        double out = Max.add(first, second, third, fourth);
+        double out = Max.max(first, second, third, fourth);
         double expected = 998;
         Assert.assertEquals(expected, out, 0.01);
     }
@@ -59,7 +59,7 @@ public class MaxTest {
         double first = 25;
         double second = 321;
         double third = 998;
-        double out = Max.add(first, second, third);
+        double out = Max.max(first, second, third);
         double expected = 998;
         Assert.assertEquals(expected, out, 0.01);
     }
