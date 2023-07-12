@@ -4,7 +4,7 @@
 
     <groupId>ru.job4j</groupId>
     <packaging>jar</packaging>
-    <artifactId>job4j_design</artifactId>
+    <artifactId>job4j_elementary</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
