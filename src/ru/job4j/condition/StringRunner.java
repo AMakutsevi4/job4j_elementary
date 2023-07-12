@@ -9,5 +9,4 @@ public class StringRunner {
         idea += year;
         System.out.println(idea);
     }
-
 }
