@@ -13,12 +13,9 @@ public class ArgMethod {
         String name = "Alexander Makutsevich";
         int age = 29;
 
-      //  ArgMethod.hello();
-
         ArgMethod.hello(name);
 
         ArgMethod.yourAge(age);
 
-     //  ArgMethod.hello(name, name, name);
     }
 }

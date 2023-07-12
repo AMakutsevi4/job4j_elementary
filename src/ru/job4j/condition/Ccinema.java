@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-//4.3.1. Оператор && [#487630]
 
 public class Ccinema {
     public static void permission(boolean allowByParent, boolean hasMoney) {
