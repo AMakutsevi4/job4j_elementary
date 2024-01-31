@@ -6,7 +6,7 @@ import org.junit.Test;
 public class MaxTest {
 
     @Test
-    public void WhenL1R2Then2() {
+    public void whenL1R2Then2() {
         int left = 1;
         int right = 2;
         int result = Max.max(left, right);
@@ -15,7 +15,7 @@ public class MaxTest {
     }
 
     @Test
-    public void WhenL9R8Then9() {
+    public void whenL9R8Then9() {
         int left = 9;
         int right = 8;
         int result = Max.max(left, right);
@@ -24,7 +24,7 @@ public class MaxTest {
     }
 
     @Test
-    public void WhenL724R724ThenAny() {
+    public void whenL724R724ThenAny() {
         int left = 724;
         int right = 724;
         int result = Max.max(left, right);
@@ -33,7 +33,7 @@ public class MaxTest {
     }
 
     @Test
-    public void WhenF10S9T7F6Then10() {
+    public void whenF10S9T7F6Then10() {
         double first = 10;
         double second = 9;
         double third = 6;
@@ -44,7 +44,7 @@ public class MaxTest {
     }
 
     @Test
-    public void WhenF1S998T75F641Then998() {
+    public void whenF1S998T75F641Then998() {
         double first = 1;
         double second = 998;
         double third = 75;
@@ -55,7 +55,7 @@ public class MaxTest {
     }
 
     @Test
-    public void WhenF25S321T998Then998() {
+    public void whenF25S321T998Then998() {
         double first = 25;
         double second = 321;
         double third = 998;

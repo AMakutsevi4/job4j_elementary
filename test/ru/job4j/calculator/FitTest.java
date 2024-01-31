@@ -3,7 +3,6 @@ package ru.job4j.calculator;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 public class FitTest {
 
     @Test
@@ -11,7 +10,7 @@ public class FitTest {
         short in = 180;
         double extended = 92;
         double out = Fit.manWeight(in);
-        Assert.assertEquals(extended,out,0.01);
+        Assert.assertEquals(extended, out, 0.01);
     }
 
     @Test
@@ -19,6 +18,6 @@ public class FitTest {
         short in = 170;
         double extended = 69;
         double out = Fit.womanWeight(in);
-        Assert.assertEquals(extended,out,0.01);
+        Assert.assertEquals(extended, out, 0.01);
     }
 }
