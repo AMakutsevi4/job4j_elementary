@@ -11,7 +11,7 @@ public abstract class Vehicle {
 
     public abstract void steer();
 
-    public void brake(){
+    public void brake() {
         System.out.println("Стандартная тормозная система");
     }
 

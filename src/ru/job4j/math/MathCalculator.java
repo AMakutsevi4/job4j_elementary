@@ -9,8 +9,8 @@ public class MathCalculator {
     }
 
     public static double amountFourMethod(double first, double second) {
-        return sum(first, second) + difference(first, second) +
-                share(first, second) + multiply(first, second);
+        return sum(first, second) + difference(first, second)
+                + share(first, second) + multiply(first, second);
     }
 
     public static void main(String[] args) {

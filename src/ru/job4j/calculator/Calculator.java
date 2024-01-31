@@ -1,7 +1,7 @@
 package ru.job4j.calculator;
 
 public class Calculator {
-    public static void main (String[] agrs){
+    public static void main(String[] agrs) {
         int one = 1;
         int two = 2;
         int six = 6;
